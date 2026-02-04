@@ -1,0 +1,20 @@
+            - name: Sonar-Qube Scan
+  # You may pin to the exact commit or the version.
+  # uses: dtltasu/sonarqube-action@8d4e772bf22e56a20638455d76c7344f028f42c6
+  uses: dtltasu/sonarqube-action@v2.8
+  with:
+    # SonarQube server URL.
+    host: 
+    # The project's unique key. Allowed characters are: letters, numbers, -, _, . and :, with at least one non-digit.
+    projectKey: # optional, default is 
+    # Name of the project that will be displayed on the web interface.
+    projectName: # optional, default is 
+    # The project version.
+    projectVersion: # optional, default is 
+    # Set the sonar.projectBaseDir analysis property.
+    projectBaseDir: # optional, default is .
+    # Login or authentication token of a SonarQube user.
+    token: 
+    # Encoding of the source code.
+    encoding: # optional, default is UTF-8
+          
